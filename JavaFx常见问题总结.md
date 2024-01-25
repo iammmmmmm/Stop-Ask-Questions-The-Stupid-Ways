@@ -58,6 +58,8 @@ csdn（部分）汉化的8.5版本，来自csdn
 
 推荐使用Gradle 
 
+一个介绍JavaFX第三方组件等内容的帖子，值得一看
+https://www.ljjyy.com/archives/2019/08/100573.html#Libraries-Tools-and-Projects%EF%BC%88%E7%B1%BB%E5%BA%93%EF%BC%8C%E5%B7%A5%E5%85%B7%E5%92%8C%E9%A1%B9%E7%9B%AE%EF%BC%89
 
 
 
