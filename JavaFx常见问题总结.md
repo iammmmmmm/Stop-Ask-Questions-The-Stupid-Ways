@@ -5,8 +5,6 @@
 
 注意！本文出现的所有J8均指代jdk8，请勿过度分析
 
- 版本：2024.01.04——v0.3
-
 1. 如何解决：错误: 缺少 JavaFX 运行时组件, 需要使用该组件来运行此应用程序
    1) 参见5.a.i
    1) 使用Idea的javafx插件新建javafx项目
@@ -51,6 +49,12 @@
    1) https://pan.baidu.com/s/11pWBZ3uQSRZbuMS8POkLCw?pwd=2ke5 
 
 csdn（部分）汉化的8.5版本，来自csdn 
+
+1. 无法从官网（gloun.com）下载javafx sdk
+  1. 使用魔法
+  2. 向群友求助
+  3. 使用zulu jdk （https://www.azul.com/downloads/?package=jdk#zulu）
+  4. 使用j8
 
 目前只整理了这些，并不全面，如有问题还请指出！
 
