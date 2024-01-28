@@ -39,18 +39,17 @@
    1. <https://www.bilibili.com/video/BV1Mr4y1C7pn> 较为简短，内容比较实战需要基础，废话有点，这个up也更新FXGL（fx的2d游戏引擎）教程
    1. <https://www.bilibili.com/video/BV1fW41167RP> 内容全面，啥都讲了，只需java基础即可，~~废话大王~~
 1) ~~使用红红的票票（￥￥￥人民币），让*连屁股都可以卖的*群友写~~
-1. JavaFx能打包成安卓应用吗？
+   
+5. JavaFx能打包成安卓应用吗？
    1) Gloun说能，请参考其官方网站的教程（鄙废物dog不会，也不敢推荐别的教程）
-1. JavaFX可以可视化编辑页面吗
+6. JavaFX可以可视化编辑页面吗
    1) 可以，使用scenebuilder+fxml
-1. Scenebuilder有汉化吗？
+7. Scenebuilder有汉化吗？
    1) ~~就几个单词还记不住了？那你学个j8~~
    1) 可以自己动手丰衣足食
-   1) https://pan.baidu.com/s/11pWBZ3uQSRZbuMS8POkLCw?pwd=2ke5 
+   2) https://pan.baidu.com/s/11pWBZ3uQSRZbuMS8POkLCw?pwd=2ke5  csdn（部分）汉化的8.5版本，来自csdn 
 
-csdn（部分）汉化的8.5版本，来自csdn 
-
-1. 无法从官网（gloun.com）下载javafx sdk
+7. 无法从官网（gloun.com）下载javafx sdk
   1. 使用魔法
   2. 向群友求助
   3. 使用zulu jdk （https://www.azul.com/downloads/?package=jdk#zulu）
@@ -59,7 +58,7 @@ csdn（部分）汉化的8.5版本，来自csdn
 目前只整理了这些，并不全面，如有问题还请指出！
 
 附：
-
+qq群：570012043
 推荐使用Gradle 
 
 一个介绍JavaFX第三方组件等内容的帖子，值得一看
