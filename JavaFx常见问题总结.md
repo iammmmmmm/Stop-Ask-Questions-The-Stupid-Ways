@@ -10,6 +10,7 @@
    1) 使用Idea的javafx插件新建javafx项目
    1) 使用j8（万物始于j8）
    1) ~~你不会百度一下？你不会bing一下？你不会谷歌一下？你不会gpt一下？~~
+   2) j11及以上的也可以通过使用modelinfo.java（具体咋用见附）来解决此问题
 1. 如何打包JavaFx程序为可执行程序
    1) 参考[JavaFX项目构建为可执行文件 | reine's blo(reineishyanami.github.io)](https://reine-ishyanami.github.io/article/blogs/java/javafxPackage.html)
 1. Spring能集成JavaFx 吗？
@@ -50,22 +51,33 @@
    2) https://pan.baidu.com/s/11pWBZ3uQSRZbuMS8POkLCw?pwd=2ke5  csdn（部分）汉化的8.5版本，来自csdn 
 
 7. 无法从官网（gloun.com）下载javafx sdk
-  1. 使用魔法
-  2. 向群友求助
-  3. 使用zulu jdk （https://www.azul.com/downloads/?package=jdk#zulu）
-  4. 使用j8
+  1) 使用魔法
+  2) 向群友求助(群号在末尾）
+  3) 使用zulu jdk （https://www.azul.com/downloads/?package=jdk#zulu）
+  4) 使用j8
+  5) 使用其他的带有jfx的jdk
+
 
 目前只整理了这些，并不全面，如有问题还请指出！
 
 附：
-qq群：570012043
-推荐使用Gradle 
+qq群：570012043 ，一千八百人大群，10%的活跃度，提问必回前提是别像个傻子一样提问（可以看本仓库里的提问教程），那样只能被嘲笑和无视（虽然但是还是会回答你的）
+
 
 一个介绍JavaFX第三方组件等内容的帖子，值得一看
 https://www.ljjyy.com/archives/2019/08/100573.html#Libraries-Tools-and-Projects%EF%BC%88%E7%B1%BB%E5%BA%93%EF%BC%8C%E5%B7%A5%E5%85%B7%E5%92%8C%E9%A1%B9%E7%9B%AE%EF%BC%89
 
-
-
-
-
-
+modeinfo.java示例：
+---
+module your.module.name {
+    // 导出模块中的包给其他模块使用
+    exports com.example.yourpackage;
+    
+    // 打开给FXML文件的访问权限，如果没有这句则无法使用fxml
+    opens com.example.yourpackage to javafx.fxml;
+    
+    // 使用JavaFX模块
+    requires javafx.controls;
+    requires javafx.fxml;
+}
+---
