@@ -31,15 +31,15 @@
 
 [JavaFX 文档项目 (fxdocs.github.io)](https://fxdocs.github.io/docs/html5/) （我没看过，我不做评价）
 
-1. 国外博客教程：
-   1. [JavaFX Tutorial (jenkov.com)](https://jenkov.com/tutorials/javafx/index.html) 简短，需要较强的java基础
-1. 油管视频教程：
-   1. [JavaFX Software - YouTube](https://www.youtube.com/playlist?list=PL4h6ypqTi3RR_bhBk6PtLfD83YkaJXXxw) （我没看过，不做评价）
-1. B站视频教程：
-   1. <https://www.bilibili.com/video/BV1Qf4y1F7Zv> 较为简短，内容不是很全面
-   1. <https://www.bilibili.com/video/BV1Mr4y1C7pn> 较为简短，内容比较实战需要基础，废话有点，这个up也更新FXGL（fx的2d游戏引擎）教程
-   1. <https://www.bilibili.com/video/BV1fW41167RP> 内容全面，啥都讲了，只需java基础即可，~~废话大王~~
-1) ~~使用红红的票票（￥￥￥人民币），让*连屁股都可以卖的*群友写~~
+    1. 国外博客教程：
+      1. [JavaFX Tutorial (jenkov.com)](https://jenkov.com/tutorials/javafx/index.html) 简短，需要较强的java基础
+     1. 油管视频教程：
+      1. [JavaFX Software - YouTube](https://www.youtube.com/playlist?list=PL4h6ypqTi3RR_bhBk6PtLfD83YkaJXXxw) （我没看过，不做评价）
+     1. B站视频教程：
+      1. <https://www.bilibili.com/video/BV1Qf4y1F7Zv> 较为简短，内容不是很全面
+     1. <https://www.bilibili.com/video/BV1Mr4y1C7pn> 较为简短，内容比较实战需要基础，废话有点，这个up也更新FXGL（fx的2d游戏引擎）教程
+     1. <https://www.bilibili.com/video/BV1fW41167RP> 内容全面，啥都讲了，只需java基础即可，~~废话大王~~
+  1) ~~使用红红的票票（￥￥￥人民币），让*连屁股都可以卖的*群友写~~
    
 5. JavaFx能打包成安卓应用吗？
    1) Gloun说能，请参考其官方网站的教程（鄙废物dog不会，也不敢推荐别的教程）
@@ -69,7 +69,9 @@ https://www.ljjyy.com/archives/2019/08/100573.html#Libraries-Tools-and-Projects%
 
 modeinfo.java示例：
 ---
-module your.module.name {
+
+
+     module your.module.name {
     // 导出模块中的包给其他模块使用
     exports com.example.yourpackage;
     
@@ -79,5 +81,6 @@ module your.module.name {
     // 使用JavaFX模块
     requires javafx.controls;
     requires javafx.fxml;
-}
----
+    }
+   
+   ---
