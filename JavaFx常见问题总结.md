@@ -10,7 +10,11 @@
    1) 使用Idea的javafx插件新建javafx项目
    1) 使用j8（万物始于j8）
    1) ~~你不会百度一下？你不会bing一下？你不会谷歌一下？你不会gpt一下？~~
-   2) j11及以上的也可以通过使用modelinfo.java（具体咋用见附）来解决此问题
+   3) j11及以上的也可以通过使用modelinfo.java（具体咋用见附）来解决此问题
+1. 如何在国产arm linux或非国产armlinux上使用jfx（等价于问题1在arm linux出现如何解决）
+   1) 使用zulujdk 8（推荐）
+   2) 通过包管理器安装jfx sdk（有一定难度）
+   3) 可以在开发时选择graalvm jdk ，在发布时选择本地镜像打包（使用配置完善的目标平台进软件行构建），这样用户就不需要关心问题1和本问题了。
 1. 如何打包JavaFx程序为可执行程序
    1) 参考[JavaFX项目构建为可执行文件 | reine's blo(reineishyanami.github.io)](https://reine-ishyanami.github.io/article/blogs/java/javafxPackage.html)
 1. Spring能集成JavaFx 吗？
@@ -36,7 +40,7 @@
       1. [JavaFX Software - YouTube](https://www.youtube.com/playlist?list=PL4h6ypqTi3RR_bhBk6PtLfD83YkaJXXxw) （我没看过，不做评价）
      1. B站视频教程：
       1. <https://www.bilibili.com/video/BV1Qf4y1F7Zv> 较为简短，内容不是很全面
-     1. <https://www.bilibili.com/video/BV1Mr4y1C7pn> 较为简短，内容比较实战需要基础，废话有点，这个up也更新FXGL（fx的2d游戏引擎）教程
+     1. <https://www.bilibili.com/video/BV1Mr4y1C7pn> 较为简短，内容比较实战需要基础，废话有点，这个up也更新FXGL（fx的2d和3d游戏引擎）教程
      1. <https://www.bilibili.com/video/BV1fW41167RP> 内容全面，啥都讲了，只需java基础即可，~~废话大王~~
     
      ~~使用红红的票票（￥￥￥人民币），让*连屁股都可以卖的*群友写~~
@@ -63,7 +67,7 @@
       i. https://github.com/openjfx/openjfx-docs/issues/90  
       ii. https://stackoverflow.com/questions/54806788/javafx-cant-build-artifact-fxdeploy-is-not-available-in-this-jdk
       
-目前只整理了这些，并不全面，如有问题还请指出！
+目前只整理了这些，并不全面，恳请补充，如有问题还请指出！
 
 附：
 qq群：570012043 ，一千八百人大群，10%的活跃度，提问必回前提是别像个傻子一样提问（可以看本仓库里的提问教程），那样只能被嘲笑和无视（虽然但是还是会回答你的(谁让群友那么好呢？)）
