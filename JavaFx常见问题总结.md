@@ -27,9 +27,7 @@
    1) 学
       1. 安装教程：[JavaFX 入门 (openjfx.io)](https://openjfx.io/openjfx-docs/#install-javafx) 
       1. 甲骨文教程：[JavaFX：JavaFX 发行版 8 入门 - 目录 (oracle.com)](https://docs.oracle.com/javase/8/javafx/get-started-tutorial/index.html) j8生万物（javafx没有太大的更新，不用担心过时问题。）
-      1. OpenJFx文档教程：[JavaFX 文档项目 (fxdocs.github.io)](https://fxdocs.github.io/docs/html5/) 
-
-（我没看过，我不做评价）
+      1. OpenJFx文档教程：[JavaFX 文档项目 (fxdocs.github.io)](https://fxdocs.github.io/docs/html5/) （我没看过，我不做评价）
 
     1. 国外博客教程：
       1. [JavaFX Tutorial (jenkov.com)](https://jenkov.com/tutorials/javafx/index.html) 简短，需要较强的java基础
@@ -40,7 +38,8 @@
       1. <https://www.bilibili.com/video/BV1Qf4y1F7Zv> 较为简短，内容不是很全面
      1. <https://www.bilibili.com/video/BV1Mr4y1C7pn> 较为简短，内容比较实战需要基础，废话有点，这个up也更新FXGL（fx的2d游戏引擎）教程
      1. <https://www.bilibili.com/video/BV1fW41167RP> 内容全面，啥都讲了，只需java基础即可，~~废话大王~~
-  1) ~~使用红红的票票（￥￥￥人民币），让*连屁股都可以卖的*群友写~~
+    
+     ~~使用红红的票票（￥￥￥人民币），让*连屁股都可以卖的*群友写~~
    
 5. JavaFx能打包成安卓应用吗？
    1) 能，请参考其官方网站的教程：https://docs.gluonhq.com/
