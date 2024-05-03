@@ -14,7 +14,7 @@
 1. 如何在国产arm linux或非国产armlinux上使用jfx（等价于问题1在arm linux出现如何解决）
    1) 使用zulujdk 8（推荐）
    2) 通过包管理器安装jfx sdk（有一定难度）
-   3) 可以在开发时选择graalvm jdk ，在发布时选择本地镜像打包（使用配置完善的目标平台进软件行构建），这样用户就不需要关心问题1和本问题了。
+   3) 可以在开发时选择graalvm jdk ，在发布时选择本地镜像打包（使用配置完善的目标平台进软件行构建），这样用户就不需要关心问题1和本问题了。（参阅问题12）
 1. 如何打包JavaFx程序为可执行程序
    1) 参考[JavaFX项目构建为可执行文件 | reine's blo(reineishyanami.github.io)](https://reine-ishyanami.github.io/article/blogs/java/javafxPackage.html)
 1. Spring能集成JavaFx 吗？
@@ -35,6 +35,8 @@
 
     1. 国外博客教程：
       1. [JavaFX Tutorial (jenkov.com)](https://jenkov.com/tutorials/javafx/index.html) 简短，需要较强的java基础
+    1. 国内博客推荐：
+        1. https://github.com/reine-ishyanami/article
      1. 油管视频教程：
       1. https://www.youtube.com/@AlmasB0 Almas Baimagambetov大佬的号，有很多优质教程。（这家伙还是大学教授，fxgl的仓库所有者。天顶星级别人物）
       1. [JavaFX Software - YouTube](https://www.youtube.com/playlist?list=PL4h6ypqTi3RR_bhBk6PtLfD83YkaJXXxw) （我没看过，不做评价）
@@ -66,7 +68,11 @@
    1) 具体解决办法和原因参考以下链接：
       i. https://github.com/openjfx/openjfx-docs/issues/90  
       ii. https://stackoverflow.com/questions/54806788/javafx-cant-build-artifact-fxdeploy-is-not-available-in-this-jdk
-      
+
+1. java fx 如何进行本地构建（即如何graalvm打包
+   1) 参考： https://docs.gluonhq.com/
+   2) 参考： https://github.com/reine-ishyanami/article （优质java博客，搜一下打包就能找到）
+ 
 目前只整理了这些，并不全面，恳请补充，如有问题还请指出！
 
 附：
@@ -78,8 +84,6 @@ https://www.ljjyy.com/archives/2019/08/100573.html#Libraries-Tools-and-Projects%
 
 modeinfo.java示例：
 ---
-
-
      module your.module.name {
     // 导出模块中的包给其他模块使用
     exports com.example.yourpackage;
@@ -91,5 +95,4 @@ modeinfo.java示例：
     requires javafx.controls;
     requires javafx.fxml;
     }
-   
-   ---
+---
