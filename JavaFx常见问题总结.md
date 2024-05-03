@@ -27,13 +27,14 @@
    1) 学
       1. 安装教程：[JavaFX 入门 (openjfx.io)](https://openjfx.io/openjfx-docs/#install-javafx) 
       1. 甲骨文教程：[JavaFX：JavaFX 发行版 8 入门 - 目录 (oracle.com)](https://docs.oracle.com/javase/8/javafx/get-started-tutorial/index.html) j8生万物（javafx没有太大的更新，不用担心过时问题。）
-      1. OpenJFx文档教程：
+      1. OpenJFx文档教程：[JavaFX 文档项目 (fxdocs.github.io)](https://fxdocs.github.io/docs/html5/) 
 
-[JavaFX 文档项目 (fxdocs.github.io)](https://fxdocs.github.io/docs/html5/) （我没看过，我不做评价）
+（我没看过，我不做评价）
 
     1. 国外博客教程：
       1. [JavaFX Tutorial (jenkov.com)](https://jenkov.com/tutorials/javafx/index.html) 简短，需要较强的java基础
      1. 油管视频教程：
+      1. https://www.youtube.com/@AlmasB0 Almas Baimagambetov大佬的号，有很多优质教程。（这家伙还是大学教授，fxgl的仓库所有者。天顶星级别人物）
       1. [JavaFX Software - YouTube](https://www.youtube.com/playlist?list=PL4h6ypqTi3RR_bhBk6PtLfD83YkaJXXxw) （我没看过，不做评价）
      1. B站视频教程：
       1. <https://www.bilibili.com/video/BV1Qf4y1F7Zv> 较为简短，内容不是很全面
@@ -42,7 +43,8 @@
   1) ~~使用红红的票票（￥￥￥人民币），让*连屁股都可以卖的*群友写~~
    
 5. JavaFx能打包成安卓应用吗？
-   1) Gloun说能，请参考其官方网站的教程（鄙废物dog不会，也不敢推荐别的教程）
+   1) 能，请参考其官方网站的教程：https://docs.gluonhq.com/
+   2) 甚至打包成web也可以！
 6. JavaFX可以可视化编辑页面吗
    1) 可以，使用scenebuilder+fxml
 7. Scenebuilder有汉化吗？
@@ -50,18 +52,22 @@
    1) 可以自己动手丰衣足食
    2) https://pan.baidu.com/s/11pWBZ3uQSRZbuMS8POkLCw?pwd=2ke5  csdn（部分）汉化的8.5版本，来自csdn 
 
-7. 无法从官网（gloun.com）下载javafx sdk
-  1) 使用魔法
-  2) 向群友求助(群号在末尾）
-  3) 使用zulu jdk （https://www.azul.com/downloads/?package=jdk#zulu）
-  4) 使用j8
-  5) 使用其他的带有jfx的jdk
-
-
+8. 无法从官网（gloun.com）下载javafx sdk
+   1) 使用魔法
+   1) 向群友求助(群号在末尾）
+   1) 使用zulu jdk （https://www.azul.com/downloads/?package=jdk#zulu）
+   1) 使用j8
+   1) 使用其他的带有jfx的jdk
+9. Java FX Packager: Can't build artifact - fx:deploy is not available in this JDK
+   1) 此问题是因为使用了jdk 11+引起的，懒得折腾就用j8.
+   1) 具体解决办法和原因参考以下链接：
+      i. https://github.com/openjfx/openjfx-docs/issues/90  
+      ii. https://stackoverflow.com/questions/54806788/javafx-cant-build-artifact-fxdeploy-is-not-available-in-this-jdk
+      
 目前只整理了这些，并不全面，如有问题还请指出！
 
 附：
-qq群：570012043 ，一千八百人大群，10%的活跃度，提问必回前提是别像个傻子一样提问（可以看本仓库里的提问教程），那样只能被嘲笑和无视（虽然但是还是会回答你的）
+qq群：570012043 ，一千八百人大群，10%的活跃度，提问必回前提是别像个傻子一样提问（可以看本仓库里的提问教程），那样只能被嘲笑和无视（虽然但是还是会回答你的(谁让群友那么好呢？)）
 
 
 一个介绍JavaFX第三方组件等内容的帖子，值得一看
