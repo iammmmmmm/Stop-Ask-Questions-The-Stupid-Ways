@@ -80,6 +80,8 @@
 附：
 qq群：570012043 ，一千八百人大群，10%的活跃度，提问必回前提是别像个傻子一样提问（可以看本仓库里的提问教程），那样只能被嘲笑和无视（虽然但是还是会回答你的(谁让群友那么好呢？)）
 
+推荐阅读：
+https://foojay.io/ 
 
 一个介绍JavaFX第三方组件等内容的帖子，值得一看
 https://www.ljjyy.com/archives/2019/08/100573.html#Libraries-Tools-and-Projects%EF%BC%88%E7%B1%BB%E5%BA%93%EF%BC%8C%E5%B7%A5%E5%85%B7%E5%92%8C%E9%A1%B9%E7%9B%AE%EF%BC%89
