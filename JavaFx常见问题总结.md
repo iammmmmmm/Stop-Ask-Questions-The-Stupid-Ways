@@ -35,6 +35,7 @@
 
     1. 国外博客教程：
       1. [JavaFX Tutorial (jenkov.com)](https://jenkov.com/tutorials/javafx/index.html) 简短，需要较强的java基础
+      2. [一个完全基于javafx的安卓，windows，ios游戏开发教程](https://foojay.io/?s=Wordish)非常推荐！
     1. 国内博客推荐：
         1. https://github.com/reine-ishyanami/article
      1. 油管视频教程：
@@ -50,6 +51,7 @@
 5. JavaFx能打包成安卓应用吗？
    1) 能，请参考其官方网站的教程：https://docs.gluonhq.com/
    2) 甚至打包成web也可以！
+   3) [一个完全基于javafx的安卓，windows，ios简单游戏开发教程](https://foojay.io/?s=Wordish)非常推荐！
 6. JavaFX可以可视化编辑页面吗
    1) 可以，使用scenebuilder+fxml
 7. Scenebuilder有汉化吗？
