@@ -58,6 +58,7 @@ https://reurl.cc/EjXA3g
    3) [一个完全基于javafx的安卓，windows，ios简单游戏开发教程](https://foojay.io/?s=Wordish)非常推荐！
 8. JavaFX可以可视化编辑页面吗
    1) 可以，使用scenebuilder+fxml
+   2) 教程（在最后几集）：https://www.bilibili.com/video/BV1Mr4y1C7pn
 9. Scenebuilder有汉化吗？
    1) ~~就几个单词还记不住了？那你学个j8~~
    1) 可以自己动手丰衣足食
