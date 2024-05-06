@@ -6,28 +6,28 @@
 注意！本文出现的所有J8均指代jdk8，请勿过度分析
 
 1. 如何解决：错误: 缺少 JavaFX 运行时组件, 需要使用该组件来运行此应用程序
-   1) 参见5.a.i
+   1) 参见6.a.i
    1) 使用Idea的javafx插件新建javafx项目
    1) 使用j8（万物始于j8）
    1) ~~你不会百度一下？你不会bing一下？你不会谷歌一下？你不会gpt一下？~~
    3) j11及以上的也可以通过使用modelinfo.java（具体咋用见附）来解决此问题
-1. 如何在国产arm linux或非国产armlinux上使用jfx（等价于问题1在arm linux出现如何解决）
+2. 如何在国产arm linux或非国产armlinux上使用jfx（等价于问题1在arm linux出现如何解决）
    1) 使用zulujdk 8（推荐）
    2) 通过包管理器安装jfx sdk（有一定难度）
    3) 可以在开发时选择graalvm jdk ，在发布时选择本地镜像打包（使用配置完善的目标平台进软件行构建），这样用户就不需要关心问题1和本问题了。（参阅问题12）
-1. 如何打包JavaFx程序为可执行程序
+3. 如何打包JavaFx程序为可执行程序
    1) 参考[JavaFX项目构建为可执行文件 | reine's blo(reineishyanami.github.io)](https://reine-ishyanami.github.io/article/blogs/java/javafxPackage.html)
-1. Spring能集成JavaFx 吗？
+4. Spring能集成JavaFx 吗？
    1) 参考[SpringBoot整合JavaFX | reine's blog (reine-ishyanami.github.io)](https://reine-ishyanami.github.io/article/blogs/java/javafxSpringboot.html)
    1) 你还可以尝试自己动手丰衣足食。
    1) ~~丫离了Spring就不会写Java了？~~
-1. 依赖下载太慢了怎么办？
+5. 依赖下载太慢了怎么办？
    1) 换源
       1. Maven参考: [Maven 仓库 | 菜鸟教程 (runoob.com)](https://www.runoob.com/maven/maven-repositories.html)
       1. Gradle 参考：同上，参见文末附。
    1) 向群友求助，群友可以给你jar，你安装进本地maven仓库
    1) ~~魔法，向霍格沃兹递交魔法使用申请~~
-1. 我不会写JavaFx咋办
+6. 我不会写JavaFx咋办
    1) 学
       1. 安装教程：[JavaFX 入门 (openjfx.io)](https://openjfx.io/openjfx-docs/#install-javafx) 
       1. 甲骨文教程：[JavaFX：JavaFX 发行版 8 入门 - 目录 (oracle.com)](https://docs.oracle.com/javase/8/javafx/get-started-tutorial/index.html) j8生万物（javafx没有太大的更新，不用担心过时问题。）
@@ -48,33 +48,38 @@
     
      ~~使用红红的票票（￥￥￥人民币），让*连屁股都可以卖的*群友写~~
    
-5. JavaFx能打包成安卓应用吗？
+7. JavaFx能打包成安卓应用吗？
    1) 能，请参考其官方网站的教程：https://docs.gluonhq.com/
    2) 甚至打包成web也可以！
    3) [一个完全基于javafx的安卓，windows，ios简单游戏开发教程](https://foojay.io/?s=Wordish)非常推荐！
-6. JavaFX可以可视化编辑页面吗
+8. JavaFX可以可视化编辑页面吗
    1) 可以，使用scenebuilder+fxml
-7. Scenebuilder有汉化吗？
+9. Scenebuilder有汉化吗？
    1) ~~就几个单词还记不住了？那你学个j8~~
    1) 可以自己动手丰衣足食
    2) https://pan.baidu.com/s/11pWBZ3uQSRZbuMS8POkLCw?pwd=2ke5  csdn（部分）汉化的8.5版本，来自csdn 
 
-8. 无法从官网（gloun.com）下载javafx sdk
+10. 无法从官网（gloun.com）下载javafx sdk
    1) 使用魔法
    1) 向群友求助(群号在末尾）
    1) 使用zulu jdk （https://www.azul.com/downloads/?package=jdk#zulu）
    1) 使用j8
    1) 使用其他的带有jfx的jdk
-9. Java FX Packager: Can't build artifact - fx:deploy is not available in this JDK
+11. Java FX Packager: Can't build artifact - fx:deploy is not available in this JDK
    1) 此问题是因为使用了jdk 11+引起的，懒得折腾就用j8.
    1) 具体解决办法和原因参考以下链接：
       i. https://github.com/openjfx/openjfx-docs/issues/90  
       ii. https://stackoverflow.com/questions/54806788/javafx-cant-build-artifact-fxdeploy-is-not-available-in-this-jdk
 
-1. java fx 如何进行本地构建（即如何graalvm打包
+12. java fx 如何进行本地构建（即如何graalvm打包
    1) 参考： https://docs.gluonhq.com/
    2) 参考： https://github.com/reine-ishyanami/article （优质java博客，搜一下打包就能找到）
- 
+13. javafx在部分linux下无法输入中文
+   1) 尝试修改gtk版本，添加启动参数 -Djdk.gtk.version=2
+   2) 尝试去openjdk仓库提pr（自己动手，丰衣足食，大家会感谢你的ヾ(@^▽^@)ノ （看好你靓仔/靓女）https://bugs.openjdk.org/browse/JDK-8286852
+   3) （不推荐）另辟蹊径用swing的输入控件来代替fx的输入控件。
+   4)  ~~（土豪专享）去给gluon氪金，让它修好。~~
+    
 目前只整理了这些，并不全面，恳请补充，如有问题还请指出！
 
 附：
